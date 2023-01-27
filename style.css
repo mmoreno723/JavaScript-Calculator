@@ -1,0 +1,24 @@
+.calculatorGrid {
+  width: 335px;
+  height: 500px;
+  border: solid 2px black;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.textview {
+  width: 310px;
+  height: 60px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.btn {
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+}
