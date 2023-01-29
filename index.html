@@ -18,9 +18,13 @@
           <td>
             <input class="btn" type="button" value="C" onclick="clearForm()" />
           </td>
-          <td><input class="btn" type="button" value="+/-" /></td>
+          <td>
+            <input class="btn" type="button" value="+/-" />
+          </td>
           <td><input class="btn" type="button" value="%" /></td>
-          <td><input class="btn" type="button" value="/" /></td>
+          <td>
+            <input class="btn" type="button" value="/" onclick="insert('/')" />
+          </td>
         </tr>
         <tr>
           <td>
@@ -72,7 +76,7 @@
             <input class="btn" type="button" value="." onclick="insert('.')" />
           </td>
           <td>
-            <input class="btn" type="button" value="=" onclick="" />
+            <input class="btn" type="button" value="=" onclick="equal()" />
           </td>
         </tr>
       </table>

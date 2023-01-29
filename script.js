@@ -7,3 +7,15 @@ function insert(num) {
 function clearForm() {
   document.form1.textview.value = "";
 }
+
+// function changeSign() {
+
+// }
+
+function equal() {
+  var expression = document.form1.textview.value;
+
+  if (expression) {
+    document.form1.textview.value = eval(expression);
+  }
+}
